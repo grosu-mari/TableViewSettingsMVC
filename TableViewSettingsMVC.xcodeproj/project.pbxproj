@@ -16,6 +16,8 @@
 		4482ECB226D24D5F005B719C /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4482ECB126D24D5F005B719C /* OnboardingView.swift */; };
 		4482ECB426D24D6C005B719C /* OnboardingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4482ECB326D24D6C005B719C /* OnboardingModel.swift */; };
 		4482ECB626D24D77005B719C /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4482ECB526D24D77005B719C /* Onboarding.swift */; };
+		4482ECB826D24E90005B719C /* OnboardingSettingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4482ECB726D24E90005B719C /* OnboardingSettingsTableViewCell.swift */; };
+		4482ECBA26D24EB8005B719C /* OnboardingSwitchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4482ECB926D24EB8005B719C /* OnboardingSwitchTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		4482ECB126D24D5F005B719C /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		4482ECB326D24D6C005B719C /* OnboardingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingModel.swift; sourceTree = "<group>"; };
 		4482ECB526D24D77005B719C /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		4482ECB726D24E90005B719C /* OnboardingSettingsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingSettingsTableViewCell.swift; sourceTree = "<group>"; };
+		4482ECB926D24EB8005B719C /* OnboardingSwitchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingSwitchTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +124,8 @@
 			isa = PBXGroup;
 			children = (
 				4482ECB126D24D5F005B719C /* OnboardingView.swift */,
+				4482ECB726D24E90005B719C /* OnboardingSettingsTableViewCell.swift */,
+				4482ECB926D24EB8005B719C /* OnboardingSwitchTableViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -208,6 +214,8 @@
 				4482ECB226D24D5F005B719C /* OnboardingView.swift in Sources */,
 				4482EC9726D24C78005B719C /* AppDelegate.swift in Sources */,
 				4482EC9926D24C78005B719C /* SceneDelegate.swift in Sources */,
+				4482ECBA26D24EB8005B719C /* OnboardingSwitchTableViewCell.swift in Sources */,
+				4482ECB826D24E90005B719C /* OnboardingSettingsTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
