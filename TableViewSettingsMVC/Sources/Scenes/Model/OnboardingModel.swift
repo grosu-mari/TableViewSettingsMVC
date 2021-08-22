@@ -31,7 +31,7 @@ final class OnboardingModel {
                      .simpleCell(models: SettingsOptions(title: "Bluetooth", icon: UIImage(systemName:        "dot.radiowaves.right"), iconBackgroundColor: .systemBlue, textMode: "")),
                      .simpleCell(models: SettingsOptions(title: "Экран и яркость", icon: UIImage(systemName:        "sun.max.fill"), iconBackgroundColor: .systemBlue, textMode: "")),
                      .simpleCell(models: SettingsOptions(title: "Экран домой", icon: UIImage(systemName:        "house"), iconBackgroundColor: .systemIndigo, textMode: "")),
-                     .simpleCell(models: SettingsOptions(title: "Универсальный доступ", icon: UIImage(systemName: "checkmark.circle.fiil"), iconBackgroundColor: .systemBlue, textMode: ""))])]
+                     .simpleCell(models: SettingsOptions(title: "Универсальный доступ", icon: UIImage(systemName: "pencil.circle"), iconBackgroundColor: .systemBlue, textMode: ""))])]
 }
 
 
