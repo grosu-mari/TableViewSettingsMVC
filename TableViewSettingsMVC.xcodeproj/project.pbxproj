@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		4482EC9726D24C78005B719C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4482EC9626D24C78005B719C /* AppDelegate.swift */; };
 		4482EC9926D24C78005B719C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4482EC9826D24C78005B719C /* SceneDelegate.swift */; };
-		4482EC9B26D24C78005B719C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4482EC9A26D24C78005B719C /* ViewController.swift */; };
+		4482EC9B26D24C78005B719C /* OnboardingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4482EC9A26D24C78005B719C /* OnboardingController.swift */; };
 		4482EC9E26D24C78005B719C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4482EC9C26D24C78005B719C /* Main.storyboard */; };
 		4482ECA026D24C7B005B719C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4482EC9F26D24C7B005B719C /* Assets.xcassets */; };
 		4482ECA326D24C7B005B719C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4482ECA126D24C7B005B719C /* LaunchScreen.storyboard */; };
+		4482ECB226D24D5F005B719C /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4482ECB126D24D5F005B719C /* OnboardingView.swift */; };
+		4482ECB426D24D6C005B719C /* OnboardingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4482ECB326D24D6C005B719C /* OnboardingModel.swift */; };
+		4482ECB626D24D77005B719C /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4482ECB526D24D77005B719C /* Onboarding.swift */; };
+		4482ECB826D24E90005B719C /* OnboardingSettingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4482ECB726D24E90005B719C /* OnboardingSettingsTableViewCell.swift */; };
+		4482ECBA26D24EB8005B719C /* OnboardingSwitchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4482ECB926D24EB8005B719C /* OnboardingSwitchTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4482EC9326D24C78005B719C /* TableViewSettingsMVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewSettingsMVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4482EC9626D24C78005B719C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4482EC9826D24C78005B719C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4482EC9A26D24C78005B719C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4482EC9A26D24C78005B719C /* OnboardingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingController.swift; sourceTree = "<group>"; };
 		4482EC9D26D24C78005B719C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4482EC9F26D24C7B005B719C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4482ECA226D24C7B005B719C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4482ECA426D24C7B005B719C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4482ECB126D24D5F005B719C /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		4482ECB326D24D6C005B719C /* OnboardingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingModel.swift; sourceTree = "<group>"; };
+		4482ECB526D24D77005B719C /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		4482ECB726D24E90005B719C /* OnboardingSettingsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingSettingsTableViewCell.swift; sourceTree = "<group>"; };
+		4482ECB926D24EB8005B719C /* OnboardingSwitchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingSwitchTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +66,76 @@
 		4482EC9526D24C78005B719C /* TableViewSettingsMVC */ = {
 			isa = PBXGroup;
 			children = (
-				4482EC9626D24C78005B719C /* AppDelegate.swift */,
-				4482EC9826D24C78005B719C /* SceneDelegate.swift */,
-				4482EC9A26D24C78005B719C /* ViewController.swift */,
+				4482ECAB26D24CEC005B719C /* Sources */,
+				4482ECAA26D24CE6005B719C /* Resources */,
+			);
+			path = TableViewSettingsMVC;
+			sourceTree = "<group>";
+		};
+		4482ECAA26D24CE6005B719C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				4482EC9C26D24C78005B719C /* Main.storyboard */,
 				4482EC9F26D24C7B005B719C /* Assets.xcassets */,
 				4482ECA126D24C7B005B719C /* LaunchScreen.storyboard */,
 				4482ECA426D24C7B005B719C /* Info.plist */,
 			);
-			path = TableViewSettingsMVC;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4482ECAB26D24CEC005B719C /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				4482ECAC26D24D0B005B719C /* App */,
+				4482ECAD26D24D10005B719C /* Scenes */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		4482ECAC26D24D0B005B719C /* App */ = {
+			isa = PBXGroup;
+			children = (
+				4482EC9626D24C78005B719C /* AppDelegate.swift */,
+				4482EC9826D24C78005B719C /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		4482ECAD26D24D10005B719C /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				4482ECB026D24D20005B719C /* Controller */,
+				4482ECAF26D24D1B005B719C /* View */,
+				4482ECAE26D24D16005B719C /* Model */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		4482ECAE26D24D16005B719C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4482ECB326D24D6C005B719C /* OnboardingModel.swift */,
+				4482ECB526D24D77005B719C /* Onboarding.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4482ECAF26D24D1B005B719C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4482ECB126D24D5F005B719C /* OnboardingView.swift */,
+				4482ECB726D24E90005B719C /* OnboardingSettingsTableViewCell.swift */,
+				4482ECB926D24EB8005B719C /* OnboardingSwitchTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4482ECB026D24D20005B719C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4482EC9A26D24C78005B719C /* OnboardingController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +208,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4482EC9B26D24C78005B719C /* ViewController.swift in Sources */,
+				4482ECB626D24D77005B719C /* Onboarding.swift in Sources */,
+				4482EC9B26D24C78005B719C /* OnboardingController.swift in Sources */,
+				4482ECB426D24D6C005B719C /* OnboardingModel.swift in Sources */,
+				4482ECB226D24D5F005B719C /* OnboardingView.swift in Sources */,
 				4482EC9726D24C78005B719C /* AppDelegate.swift in Sources */,
 				4482EC9926D24C78005B719C /* SceneDelegate.swift in Sources */,
+				4482ECBA26D24EB8005B719C /* OnboardingSwitchTableViewCell.swift in Sources */,
+				4482ECB826D24E90005B719C /* OnboardingSettingsTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,7 +363,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = TableViewSettingsMVC/Info.plist;
+				INFOPLIST_FILE = TableViewSettingsMVC/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,7 +381,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = TableViewSettingsMVC/Info.plist;
+				INFOPLIST_FILE = TableViewSettingsMVC/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
